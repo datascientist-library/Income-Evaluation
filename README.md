@@ -162,9 +162,7 @@ This makes the model reliable for predicting income thresholds.
 ## Author
 
 **Mihir Patil**
-MSc Data Science Aspirant | Data Enthusiast
+Data Science Capstone Project
 
 ---
 
-
-Just tell me 👍
