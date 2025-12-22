@@ -151,18 +151,70 @@ This makes the model reliable for predicting income thresholds.
 
 ---
 
-## Tech Stack
+## Libraries Used
 
-* **Programming Language:** Python
-* **Libraries:** NumPy, Pandas, Matplotlib, Seaborn
-* **ML Libraries:** Scikit-learn, XGBoost, Imbalanced-learn (SMOTE)
+### Programming Language
+
+* **Python**
+
+### Data Manipulation & Numerical Computing
+
+* **NumPy** – Numerical operations
+* **Pandas** – Data manipulation and analysis
+
+### Data Visualization
+
+* **Matplotlib** – Basic plotting and visualizations
+* **Seaborn** – Statistical data visualization
+
+### Data Preprocessing
+
+* **StandardScaler** – Feature scaling
+* **OneHotEncoder** – Encoding categorical variables
+* **SimpleImputer** – Handling missing values
+* **ColumnTransformer** – Applying transformations to specific columns
+* **Pipeline** – Streamlining preprocessing and modeling workflows
+
+### Handling Class Imbalance
+
+* **SMOTE (Imbalanced-learn)** – Synthetic Minority Oversampling Technique
+
+### Machine Learning Models
+
+* **Logistic Regression**
+* **Decision Tree Classifier**
+* **Random Forest Classifier**
+* **Gradient Boosting Classifier**
+* **Support Vector Classifier (SVC)**
+* **XGBoost Classifier**
+
+### Model Evaluation & Validation
+
+* **Accuracy, Precision, Recall, F1-score**
+* **Confusion Matrix**
+* **ROC-AUC Curve**
+* **Classification Report**
+* **Cross-validation**
+
+### Model Selection & Optimization
+
+* **Train-Test Split**
+* **RandomizedSearchCV** – Hyperparameter tuning
 
 ---
+
 
 ## Author
 
 **Mihir Patil**
 Data Science Capstone Project
+
+
+
+
+
+
+
 
 ---
 
