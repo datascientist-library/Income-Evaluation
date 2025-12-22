@@ -1,9 +1,9 @@
 
 ---
 
-# 💰 Income Evaluation & Prediction (<=50K / >50K)
+# Income Evaluation & Prediction (<=50K / >50K)
 
-## 📌 Project Overview
+## Project Overview
 
 This capstone project focuses on **income evaluation across different countries** using demographic, educational, and occupational data.
 The objective is to **build a machine learning model** that predicts whether an individual's income exceeds **50K per year**, while also identifying the **key factors contributing to higher income levels**.
@@ -12,7 +12,7 @@ Such a model can help organizations, policymakers, and analysts better understan
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Given a set of personal and professional attributes, predict whether a person’s income falls into one of the following categories:
 
@@ -23,13 +23,13 @@ This is treated as a **binary classification problem**.
 
 ---
 
-## 📂 Dataset Information
+## Dataset Information
 
 * **Total Rows:** 32,561
 * **Total Columns:** 15
 * **Target Variable:** Income threshold (<=50K, >50K)
 
-### 🔑 Feature Description
+### Feature Description
 
 | No. | Feature Name     | Description                        |
 | --- | ---------------- | ---------------------------------- |
@@ -51,7 +51,7 @@ This is treated as a **binary classification problem**.
 
 ---
 
-## 🧹 Data Cleaning & Preprocessing
+## Data Cleaning & Preprocessing
 
 During data exploration and preprocessing, the following steps were performed:
 
@@ -73,11 +73,11 @@ During data exploration and preprocessing, the following steps were performed:
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 Key insights derived from data visualization and categorical analysis:
 
-### 🔍 Key Observations
+### Key Observations
 
 1. **Gender Impact**
 
@@ -99,7 +99,7 @@ Key insights derived from data visualization and categorical analysis:
    * High-paying roles: *Exec-managerial, Prof-specialty, Tech-support*
    * Lower-paying roles: *Handlers-cleaners, Machine-op-inspct, Other-service*
 
-### 📌 Conclusion from EDA
+### Conclusion from EDA
 
 Income level is strongly influenced by:
 
@@ -112,7 +112,7 @@ Individuals who are **male, married, highly educated, and working in professiona
 
 ---
 
-## 🤖 Machine Learning Models Trained
+## Machine Learning Models Trained
 
 The following models were trained and evaluated:
 
@@ -127,7 +127,7 @@ The following models were trained and evaluated:
 
 ---
 
-## 🏆 Model Selection & Optimization
+## Model Selection & Optimization
 
 * **XGBoost** delivered the best baseline performance with **85% accuracy**
 * Applied:
@@ -136,14 +136,14 @@ The following models were trained and evaluated:
   * Cross-validation
 * Final optimized model achieved:
 
-  * ✅ **87% accuracy**
+  * **87% accuracy**
   * Strong balance between precision and recall
 
 This makes the model reliable for predicting income thresholds.
 
 ---
 
-## 📈 Final Results
+## Final Results
 
 * Successfully built a **robust income prediction model**
 * Identified **key socio-economic factors** affecting income
@@ -151,7 +151,7 @@ This makes the model reliable for predicting income thresholds.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Programming Language:** Python
 * **Libraries:** NumPy, Pandas, Matplotlib, Seaborn
@@ -159,18 +159,12 @@ This makes the model reliable for predicting income thresholds.
 
 ---
 
-## 👤 Author
+## Author
 
 **Mihir Patil**
 MSc Data Science Aspirant | Data Enthusiast
 
 ---
 
-If you want, I can also:
-
-* ✨ Make this **more concise**
-* 🧑‍💼 Rewrite it in a **recruiter-focused style**
-* 📦 Add a **project folder structure** section
-* 📊 Add **sample visualizations section**
 
 Just tell me 👍
